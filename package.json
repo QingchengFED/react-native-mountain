@@ -1,6 +1,6 @@
 {
   "name": "react-native-mountain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A testing common React-Native components library.",
   "main": "index.js",
   "scripts": {

@@ -2,7 +2,7 @@
  * @Author: yxp
  * @Date:   2017-06-01 10:06:78
  * @Last modified by:   yxp
- * @Last modified time: 2017-06-01 13:06:76
+ * @Last modified time: 2017-06-01 18:06:85
  */
 import React, {Component} from 'react';
 import {
@@ -47,7 +47,7 @@ export default class Movies extends Component {
     _onPressButton(rowData) {
         if (!this.props.navigation) return;
         const {navigate} = this.props.navigation;
-        navigate('MovieDetail', {id: rowData.id});
+        navigate('MovieDetail', {id: rowData.id, title: rowData.title});
     }
 
     render() {
