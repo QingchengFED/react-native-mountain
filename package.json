@@ -1,0 +1,15 @@
+{
+  "name": "react-native-mountain",
+  "version": "1.0.0",
+  "description": "A testing common React-Native components library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yxp <624835942@qq.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-native": "^0.44.2"
+  }
+}
