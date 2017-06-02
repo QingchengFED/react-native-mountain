@@ -1,6 +1,6 @@
 {
   "name": "react-native-mountain",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A testing common React-Native components library.",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,13 @@
   },
   "author": "yxp <624835942@qq.com>",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^15.5.4",
-    "react-native": "^0.44.2",
+    "react-native": "^0.44.2"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "react-native-elements": "^0.12.2",
     "react-navigation": "^1.0.0-beta.11"
   }
 }

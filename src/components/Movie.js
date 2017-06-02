@@ -2,7 +2,7 @@
  * @Author: yxp
  * @Date:   2017-06-01 17:06:38
  * @Last modified by:   yxp
- * @Last modified time: 2017-06-01 18:06:29
+ * @Last modified time: 2017-06-02 10:06:40
  */
  import React, {Component} from 'react';
  import {
@@ -30,7 +30,7 @@
          if (this.props.navigation) {
              params.id = this.props.navigation.state.params.id;
          }
-         resource(requests.movieReq, {id: id}).then(responseJson => {
+         resource(requests.movieReq, params).then(responseJson => {
              console.log(responseJson);
              this.setState({
                  movie: responseJson
