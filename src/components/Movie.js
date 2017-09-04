@@ -2,7 +2,7 @@
  * @Author: yxp
  * @Date:   2017-06-01 17:06:38
  * @Last modified by:   yxp
- * @Last modified time: 2017-06-02 10:06:40
+ * @Last modified time: 2017-06-02 15:06:40
  */
  import React, {Component} from 'react';
  import {
@@ -43,11 +43,14 @@
      }
 
      render () {
+         const movie = this.state.movie;
          return (
-             <View>
-                <Image source={{uri: movie.images.large}} style={{width: 150, height: 217}} />
-                <Text style={{marginTop: 10}}>{movie.title}</Text>
-                <Text style={{marginTop: 10}}>{movie.summary}</Text>
+             <View style={{backgroundColor: 'white'}}>
+                {movie && (
+                    <Image source={{uri: movie.images.large}} style={{width: 150, height: 217}} />
+                    <Text style={{marginTop: 10}}>{movie.title}</Text>
+                    <Text style={{marginTop: 10}}>{movie.summary}</Text>
+                )}
              </View>
          )
      }

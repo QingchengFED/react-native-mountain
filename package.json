@@ -9,10 +9,10 @@
   "author": "yxp <624835942@qq.com>",
   "license": "ISC",
   "peerDependencies": {
-    "react": "^15.5.4",
-    "react-native": "^0.44.2"
   },
   "dependencies": {
+      "react": "^15.5.4",
+      "react-native": "^0.44.2",
     "axios": "^0.16.1",
     "react-native-elements": "^0.12.2",
     "react-navigation": "^1.0.0-beta.11"
